@@ -1,12 +1,13 @@
 import React from "react";
-import { TodoCounter } from "./TodoCounter";
-import { TodoSearch } from "./TodoSearch";
 import { TodoList } from "./TodoList";
 import { TodoItem } from "./TodoItem";
 import { CreateTodoButton } from "./CreateTodoButton";
+import { Header } from "./Header";
+import { ProgressCircle } from "./ProgressCircle";
 
 // import './App.css';
 const todo =[
+  {text:'things to do', completed: 1},
   {text: 'Learn React', completed: false},
   {text: 'study at platzi', completed: false},
   {text: 'go to sleep', completed: false},
@@ -15,10 +16,13 @@ const todo =[
 function App() {
   return (
   <React.Fragment>
-      <TodoCounter />
+    <Header />
     
-
-  <TodoSearch />
+    <ProgressCircle size={200} 
+    strokeWidth={40}
+    percentage={70}
+    color="white"
+    />
     
 
     <TodoList >  
