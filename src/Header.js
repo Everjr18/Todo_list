@@ -6,7 +6,7 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 const Header = () => {
     return (
-        <nav>
+        <div>
             <div className="nav-left">
                <h2>July</h2>
                 <FontAwesomeIcon icon={faChevronDown} />
@@ -17,8 +17,9 @@ const Header = () => {
                 <FontAwesomeIcon icon={faSearch} />
                 </div>
             </div>
+            </div>
 
-        </nav>
+        
     );
 }
 

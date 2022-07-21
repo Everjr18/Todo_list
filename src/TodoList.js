@@ -3,11 +3,11 @@ import './TodoList.css'
 
 const TodoList = (props) => {
     return (
-        <section className='todo-list'>
-        <ul>
+       
+        <ul className='TodoList'>
        {props.children}
        </ul>
-        </section>
+        
     );
 }
 

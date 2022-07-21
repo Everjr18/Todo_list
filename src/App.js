@@ -8,9 +8,9 @@ import { ProgressCircle } from "./ProgressCircle";
 // import './App.css';
 const todo =[
   {text:'things to do', completed: 1},
-  {text: 'Learn React', completed: false},
-  {text: 'study at platzi', completed: false},
-  {text: 'go to sleep', completed: false},
+  {text:'Learn React', completed: false},
+  {text:'study at platzi', completed: false},
+  {text:'go to sleep', completed: false},
 ]
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   <React.Fragment>
     <Header />
     
-    <ProgressCircle size={200} 
+    <ProgressCircle size={170} 
     strokeWidth={40}
     percentage={70}
     color="white"

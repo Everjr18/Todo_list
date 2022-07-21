@@ -1,0 +1,33 @@
+.TodoItem {
+  background-color: #FAFAFA;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 24px 20px 0 20px;
+  border-radius: 20px;
+}
+.TodoItem-p {
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  right: 80px;
+}
+.circle-check{
+  position: absolute;
+  left: 15px;
+  top: -8px;
+  cursor: pointer;
+}
+.circle-check:hover{
+  color: rgb(59, 231, 59);
+}
+.delete-icon{
+  position: absolute;
+  right: 15px;
+  top: -9px;
+}
+.delete-icon:hover {
+  color: red;
+}
